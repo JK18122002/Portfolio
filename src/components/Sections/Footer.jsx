@@ -204,7 +204,8 @@ const Footer = () => {
           className="space-y-2"
           >
             <p className={`text-sm ${isDarkMode ? "text-gray-500" : "text-gray-600"}`} >
-            {new Date().getFullYear()} Time To Program. All rights reserved.
+           © {new Date().getFullYear()} Jitendra Kumar. All rights reserved.
+
             </p>
             <p className={`text-xs ${isDarkMode ? "text-gray-600" : "text-gray-500"}`}>
               Built with React & Framer Motion . Designed with care
