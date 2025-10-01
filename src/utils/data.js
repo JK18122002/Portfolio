@@ -18,13 +18,16 @@ import {
 
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
-import PROJECT_IMG_1 from "../assets/images/project-1.jpg";
-import PROJECT_IMG_2 from "../assets/images/project-2.jpg";
-import PROJECT_IMG_3 from "../assets/images/project-3.jpg";
-import PROJECT_IMG_4 from "../assets/images/project-4.jpg";
-import PROJECT_IMG_5 from "../assets/images/project-5.jpg";
-import PROJECT_IMG_6 from "../assets/images/project-6.jpg";
-import PROJECT_IMG_7 from "../assets/images/project-7.jpg";
+import PROJECT_IMG_1 from "../assets/images/BlogWebsite-img.png";
+import PROJECT_IMG_2 from "../assets/images/ChatApp-img.png";
+import PROJECT_IMG_3 from "../assets/images/WeatherApp-img.png";
+import PROJECT_IMG_4 from "../assets/images/QuizApp-img.png";
+import PROJECT_IMG_5 from "../assets/images/TicTacToe-img.png";
+import PROJECT_IMG_6 from "../assets/images/Website-Frontend-img.png";
+import PROJECT_IMG_7 from "../assets/images/CollegeWebsite-img.png";
+import PROJECT_IMG_8 from "../assets/images/Portfolio-img.png";
+import PROJECT_IMG_9 from "../assets/images/PasswordGenerator-img.png";
+import PROJECT_IMG_10 from "../assets/images/countdown-img.png";
 
 
 export const SKILLS_CATEGORY = [
@@ -94,10 +97,10 @@ export const TECH_STACK = [
 ];
 
 export const STATS = [
-    { number: "50+", label: "Projects Completed" },
+    { number: "10+", label: "Projects Completed" },
     { number: "3+", label: "Years Experience" },
     { number: "20+", label: "Technologies" },
-    { number: "100+", label: "Client Satisfaction" },
+    { number: "5+", label: "Client Satisfaction" },
 ];
 
 export const PROJECTS = [
@@ -108,7 +111,7 @@ export const PROJECTS = [
     image: PROJECT_IMG_1,
     tags: ["React", "Tailwind", "Node.js", "MongoDB"],
     liveUrl: "https://blog-website-frontend-plum.vercel.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/JK18122002/Blog-Website-Frontend",
     featured: false,
     category: "Full Stack",
    },
@@ -119,7 +122,7 @@ export const PROJECTS = [
     image: PROJECT_IMG_2,
     tags: ["React", "Socket.io", "Tailwind", "Node.js", "MongoDB"],
     liveUrl: "https://chat-app-frontend-red-two.vercel.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/JK18122002/Chat-App-Frontend",
     featured: false,
     category: "Full Stack",
 },
@@ -128,10 +131,10 @@ export const PROJECTS = [
     id: 3,
     title: "Weather App",
     description: "A real-time weather application using API integration to display live temperature, conditions, and time by district or location.",
-    image: PROJECT_IMG_4,
+    image: PROJECT_IMG_3,
     tags: ["React", "API", "Tailwind"],
     liveUrl: "https://jk18122002.github.io/Weather-Website/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/JK18122002/Weather-Website",
     featured: false,
     category: "Frontend",
 },
@@ -141,24 +144,25 @@ export const PROJECTS = [
     id: 4,
     title: "Quiz App",
     description: "A responsive frontend quiz application with multiple-choice questions, score tracking, timer, and interactive animations.",
-    image: PROJECT_IMG_3,
+    image: PROJECT_IMG_4,
     tags: ["React", "Tailwind", "Framer Motion"],
     liveUrl: "https://quiz-app-eosin-seven-29.vercel.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/JK18122002/QuizApp",
     featured: false,
     category: "Frontend",
     },
-  {
-    id: 5,
-    title: "Automatic Password Generator",
-    description: "A client-side automatic password generator with customizable length and character sets (uppercase, lowercase, numbers, symbols), strength meter, copy-to-clipboard, and entropy-based strength feedback.",
-    image: PROJECT_IMG_5,
-    tags: ["JavaScript", "HTML", "CSS"],
-    liveUrl: "https://password-generator-hazel-xi.vercel.app/",
-    githubUrl: "#",
-    featured: false,
-    category: "Frontend",
+ {
+  id: 5,
+  title: "Tic Tac Toe Game",
+  description: "A classic Tic Tac Toe game implemented using HTML, CSS, and JavaScript with interactive gameplay and score tracking.",
+  image: PROJECT_IMG_5,
+  tags: ["HTML", "CSS", "JavaScript"],
+  liveUrl: "https://jk18122002.github.io/TicTacToe/",
+  githubUrl: "https://github.com/JK18122002/TicTacToe",
+  featured: false,
+  category: "Frontend",
 },
+
 
     {
         id: 6,
@@ -167,10 +171,55 @@ export const PROJECTS = [
         image: PROJECT_IMG_6,
         tags: ["React", "Tailwind", "Node.js", "MongoDB"],
         liveUrl: "https://website-frontend-alpha.vercel.app/",
-        githubUrl: "#",
+        githubUrl: "https://github.com/JK18122002/Website-Frontend",
         featured: false,
         category: "Web App",
     },
+    {
+  id: 7,
+  title: "College Website",
+  description: "A modern and responsive college website built using HTML, CSS, and JavaScript with sections for courses, faculty, events, and contact form.",
+  image: PROJECT_IMG_7,
+  tags: ["HTML", "CSS", "JavaScript"],
+  liveUrl: "https://jk18122002.github.io/CollegeWebsite/",
+  githubUrl: "https://github.com/JK18122002/CollegeWebsite",
+  featured: false,
+  category: "Frontend",
+},
+{
+  id: 8,
+  title: "Portfolio Website",
+  description: "A personal portfolio website built with React, TailwindCSS, and Framer Motion, featuring smooth animations, responsive design, and project showcases.",
+  image: PROJECT_IMG_8,
+  tags: ["React", "Tailwind", "Framer Motion"],
+  liveUrl: "https://portfolio-gamma-tawny-40.vercel.app/",
+  githubUrl: "https://github.com/JK18122002/Portfolio",
+  featured: true,
+  category: "Frontend",
+},
+  {
+    id: 9,
+    title: "Automatic Password Generator",
+    description: "A client-side automatic password generator with customizable length and character sets (uppercase, lowercase, numbers, symbols), strength meter, copy-to-clipboard, and entropy-based strength feedback.",
+    image: PROJECT_IMG_9,
+    tags: ["JavaScript", "HTML", "CSS"],
+    liveUrl: "https://password-generator-hazel-xi.vercel.app/",
+    githubUrl: "https://github.com/JK18122002/PasswordGenerator",
+    featured: false,
+    category: "Frontend",
+},
+{
+  id: 10,
+  title: "Countdown Timer",
+  description: "A responsive countdown timer built with HTML, CSS, and JavaScript that allows users to set a date and time, with dynamic updates and smooth styling.",
+  image: PROJECT_IMG_10,
+  tags: ["HTML", "CSS", "JavaScript"],
+  liveUrl: "https://jk18122002.github.io/Count-Down/",
+  githubUrl: "https://github.com/JK18122002/Count-Down",
+  featured: false,
+  category: "Frontend",
+},
+
     // {
     //     id: 7,
     //     title: "E-Commerce Platform",
@@ -182,6 +231,7 @@ export const PROJECTS = [
     //     featured: false,
     //     category: "Web App",
     // },
+
 ];
 
 export const JOURNEY_STEPS = [
@@ -225,6 +275,7 @@ export const JOURNEY_STEPS = [
         icon: Award,
         color: "bg-pink-500",
     },
+    
     // {
     //     year: "2025",
     //     title: "Senior Developer",
